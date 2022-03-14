@@ -1,0 +1,37 @@
+$button-color:rgb(68, 83, 242);
+$body-height_reponsive:500vh;
+$body-font-size_responsive:20px;
+$body-font-family:'Montserrat', sans-serif;
+$body-display:grid;
+
+
+$display_flex:flex;
+$justify_contect_space_around:space-around;
+$align_items_center:center;
+$body-height:200vh;
+$body-font-size:12px;
+
+
+$font_weight_bold:bold;
+
+$position_absolute:absolute;
+
+
+
+$font_size:(
+    "font-groot":22px,
+    "font-klein":16px,
+    "foto-height": 40px
+);
+
+$flex_direction:(
+    "row":row,
+    "column":column
+);
+
+
+
+$display_option:(
+    "contents":contents,
+    "flex":flex
+);

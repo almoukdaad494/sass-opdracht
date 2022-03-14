@@ -1,0 +1,25 @@
+.nav{ // nav
+    background-color: white;
+    justify-content: $justify_contect_space_around;
+    display:$display_flex;
+    grid-area: nav;
+    align-items: $align_items_center;
+    box-shadow:0px 1px 5px 1px rgb(202, 202, 202);
+    &__linkjes{
+        justify-content: $justify_contect_space_around;
+        display: map-get($display_option , contents);
+        list-style: none;
+        a{
+            font-weight: $font_weight_bold;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+    }
+}
+
+
+.nav_logo{
+    padding-right: 300px;
+    font-size: map-get($font_size , font-height);
+    font-size: map-get($font_size , font-height);
+}
